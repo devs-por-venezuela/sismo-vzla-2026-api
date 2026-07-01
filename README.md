@@ -1,0 +1,1 @@
+# sismo-vzla-2026-api
