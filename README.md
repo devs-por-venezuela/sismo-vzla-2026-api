@@ -108,4 +108,4 @@ La base de datos está segmentada para mejor rendimiento:
 
 ## 📝 Licencia
 
-MIT
+[MIT](LICENSE)
