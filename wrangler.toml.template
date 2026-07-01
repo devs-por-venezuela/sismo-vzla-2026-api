@@ -1,0 +1,15 @@
+name = "core-api"
+main = "src/index.ts"
+compatibility_date = "2023-07-01"
+
+[[d1_databases]]
+binding = "sismo_vzla_2026_db"
+database_name = "${DB_NAME}"
+database_id = "${DB_ID}"
+
+[[r2_buckets]]
+binding = "sismo_vzla_2026_r2_bucket"
+bucket_name = "${R2_BUCKET_NAME}"
+
+[triggers]
+crons = ["*/15 * * * *"] # Corre cada 15 minutos

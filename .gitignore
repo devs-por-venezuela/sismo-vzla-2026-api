@@ -1,0 +1,47 @@
+# Wrangler / Cloudflare Workers
+.wrangler/
+.dev.vars
+dist/
+wrangler.toml
+.env.local
+
+
+# Optional: If you use OpenNext / advanced frameworks
+.worker-next/
+
+
+# Node
+node_modules/
+
+# bun
+.bun/
+
+# bun --watch cache (importante)
+cache/
+
+# build artifacts
+build/
+
+# Logs
+logs
+
+# lock files (si usas pnpm/yarn, aunque bun los ignora)
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Testing (si tienes pruebas)
+coverage/
+test_output/
+
+# CLAUDE AI (si usas antigravity)
+.agent/
+.gemini/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
